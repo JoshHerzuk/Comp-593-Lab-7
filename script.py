@@ -1,4 +1,15 @@
-from tkinter import N
+##
+#
+# Description:
+#   This scripts creates and edits a complex data structure and uses that information to print out a couple of sentences
+#
+# Usage:
+#   python script.py 
+#
+# 
+#
+#
+##########################################################################################################################
 
 
 def main():
@@ -27,8 +38,7 @@ def main():
 
     print_favourites(student_info)
 
-
- #add new pizza toppings
+#add new pizza toppings
 def add_pizza_toppings(favourites_info, new_toppings):
 
     for _ in new_toppings:
@@ -36,7 +46,9 @@ def add_pizza_toppings(favourites_info, new_toppings):
 
     favourites_info['pizza_toppings'].sort()
 
+#this function creates the sentence that will be printed out
 def print_favourites(fav_info):
+
     # defines the start of the sentence
     sentence = "Hello Jeremy my name is " + fav_info['name'] + " and my student number is " + fav_info['student_id'] + "\n"
 
