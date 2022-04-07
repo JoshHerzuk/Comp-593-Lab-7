@@ -15,6 +15,7 @@ def main():
              'genre': 'fantasy'
             }
         ]
+    }
 
 
     #append new movie
