@@ -50,7 +50,7 @@ def add_pizza_toppings(favourites_info, new_toppings):
 def print_favourites(fav_info):
 
     # defines the start of the sentence
-    sentence = "Hello Jeremy my name is " + fav_info['name'] + " and my student number is " + fav_info['student_id'] + "\n"
+    sentence = "Hello Jeremy my name is " + fav_info['name'] + " and my student number is " + fav_info['student_id'] + ".\n"
 
     #adds a line about pizza toppings
     sentence += 'My ideal pizza has ' 
